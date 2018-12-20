@@ -1,0 +1,15 @@
+<templateSet group="Zen CSS">
+  <template name="fsty" value="font-style:$VAR0$;" description="font-style:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;italic&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="fef:o" value="font-effect:outline;" description="font-effect:outline;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="fs" value="font-size:$VAR0$;" description="font-size:...;" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

@@ -1,0 +1,12 @@
+<templateSet group="PostCSS">
+  <template name="sans" value="composes: sansRegular from &quot;styles/base/font-faces.css&quot;;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="@var" value="@import &quot;styles/base/variables.css&quot;;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS_RULESET_LIST" value="true" />
+    </context>
+  </template>
+</templateSet>

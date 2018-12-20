@@ -1,0 +1,19 @@
+<templateSet group="React">
+  <template name="react" value="import * as React from 'react'" description="import React" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rclass" value="import * as React from 'react'&#10;import * as styles from 'components2/$VAR0$/$VAR0$.css'&#10;&#10;type $VAR0$Props = {&#10;&#10;}&#10;&#10;class $VAR0$ extends React.Component&lt;$VAR0$Props&gt; {&#10;  render () {&#10;    return (&#10;      &lt;&gt;&#10;      &#10;      &lt;/&gt;&#10;    )&#10;  }&#10;}&#10;&#10;export default $VAR0$&#10;" description="define React component class" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="MyComponent" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rsfc" value="import * as React from 'react'&#10;import * as styles from 'components2/$VAR0$/$VAR0$.css'&#10;&#10;type $VAR0$Props = {&#10;&#10;}&#10;&#10;const $VAR0$: React.SFC&lt;$VAR0$Props&gt; = () =&gt; {&#10;  return (&#10;    &lt;&gt;&#10;      &#10;    &lt;/&gt;&#10;  )&#10;}&#10;&#10;export default $VAR0$&#10;" description="define React Stateless function Component" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
