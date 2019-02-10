@@ -1,0 +1,39 @@
+<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="ChangesView.Diff" />
+  <action id="ChangesView.GroupBy.Directory" />
+  <action id="CompareTwoFiles">
+    <keyboard-shortcut first-keystroke="meta alt d" />
+  </action>
+  <action id="Console.TableResult.CloneRow" />
+  <action id="Console.TableResult.SetDefault" />
+  <action id="DatabaseView.CopyAction" />
+  <action id="Diff.ShowDiff" />
+  <action id="EditorDuplicate" />
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
+  <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="GotoTest" />
+  <action id="Images.ShowThumbnails" />
+  <action id="ParameterInfo" />
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="RunDashboard.ShowConfigurations" />
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="SendEOF" />
+  <action id="Vcs.Log.FocusTextFilter" />
+  <action id="XDebugger.CopyWatch" />
+  <action id="openAssertEqualsDiff" />
+</keymap>
